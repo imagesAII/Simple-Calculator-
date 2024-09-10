@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.button,.o-button,.s-button{
+    background-color: rgb(80, 79, 79);
+    color: white;
+    width: 66px;
+    font-size: 22px;
+    padding: 20px;
+    margin: 0px 3px;
+    border: 2px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.o-button{
+    background-color: orange;
+}
+.s-button{
+    background-color: grey;
+}
+.row{
+    margin: 2px 0px;
+}
+
+.row input{
+    background-color: black;
+    color: white;
+    width: 200px;
+    font-size: 16px;
+    margin: 0;
+    padding: 10px 38px;
+    border: 2px solid red;
+    border-radius: 5px;
+}
